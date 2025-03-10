@@ -3,7 +3,7 @@ NAME = readmap
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = main.c ft_openfile.c ft_readline.c ft_readfile.c
+SRC = main.c ft_openfile.c ft_readline.c ft_readfile.c ind_max_square.c write_text.c
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
